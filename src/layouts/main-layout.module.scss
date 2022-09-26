@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  height: 100vh;
+}
+.headerContainer {
+  flex: 1;
+  flex-direction: row;
+  background-color: green;
+  width: 100%;
+}
+
+.sliderContainer {
+  flex: 3;
+  flex-direction: row;
+  background-color: aqua;
+  width: 100%;
+}
+
+.sidebarContainer {
+  flex: 5;
+  flex-direction: row;
+  background-color: red;
+  width: 100%;
+}
