@@ -1,17 +1,13 @@
-import React from 'react';
-import styled, { css } from 'styled-components';
-import type { ButtonProps } from './button.props';
-import { Container, StyledButton } from './button.styles';
+import React from "react";
+import type { ButtonProps } from "./button.props";
 
-const Button = (props: ButtonProps) => {
-
-  const { title, style: styleOverride } = props;
+const Button = (props: ButtonProps): JSX.Element => {
+  // const { title, style: styleOverride } = props;
 
   return (
-    <Container>
-      <StyledButton >Button</StyledButton>
-    </Container>
-
+    <div className="container">
+      <button className="button">Button</button>
+    </div>
   );
 };
 
