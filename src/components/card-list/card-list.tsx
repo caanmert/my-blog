@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../Card/card";
+import { Card } from "../card/card";
 import { CardListProps } from "./card-list.props";
 
 const CardList = (props: CardListProps): JSX.Element => {

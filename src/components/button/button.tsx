@@ -1,7 +1,7 @@
 import React from "react";
 import type { ButtonProps } from "./button.props";
 
-const Button = (props: ButtonProps): JSX.Element => {
+export const Button = (props: ButtonProps): JSX.Element => {
   // const { title, style: styleOverride } = props;
 
   return (
@@ -11,4 +11,3 @@ const Button = (props: ButtonProps): JSX.Element => {
   );
 };
 
-export default Button;

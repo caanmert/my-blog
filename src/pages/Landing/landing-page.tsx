@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Sidebar, Slider } from "../../components";
-import CardList from "../../components/CardList/card-list";
+import CardList from "../../components/card-list/card-list";
 import MainLayout from "../../layouts/main-layout";
 import cardData from "../../contents/cardData";
 

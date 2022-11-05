@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import LandingPage from "./pages/Landing/landing-page";
+import LandingPage from "./pages/landing/landing-page";
 
 function App(): JSX.Element {
   return (

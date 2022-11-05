@@ -1,6 +1,6 @@
 import React from "react";
 import { HeaderProps } from "./header.props";
-import styles from "./header.module.scss";
+import styles from "./header.module.css";
 
 export const Header = (props: HeaderProps): JSX.Element => {
   return (
